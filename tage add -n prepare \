@@ -1,0 +1,27 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex 7ec376b..d48a37a 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1,15 +1,9 @@[m
+[31m-# Data used to train the models[m
+[31m-data/raw/[m
+[31m-data/prepared/[m
+[31m-[m
+[31m-# Evaluation results[m
+[31m-evaluation/[m
+[31m-[m
+[31m-# The models[m
+[31m-model/[m
+[31m-[m
+ ## Python[m
+ .venv/[m
+ [m
+ # Byte-compiled / optimized / DLL files[m
+[31m-__pycache__/[m
+\ No newline at end of file[m
+[32m+[m[32m__pycache__/[m
+[32m+[m
+[32m+[m[32m## DVC[m
+[32m+[m
+[32m+[m[32m# DVC will add new files after this line[m
+\ No newline at end of file[m
